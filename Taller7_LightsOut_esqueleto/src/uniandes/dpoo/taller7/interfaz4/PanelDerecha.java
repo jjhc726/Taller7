@@ -68,8 +68,8 @@ public class PanelDerecha extends JPanel {
         	@Override
             public void actionPerformed(ActionEvent e) {
                 if (tableroActual != null) {
-                    panelTablero.actualizarTablero(tableroActual);  // Restaura el tablero guardado
-                    contadorJugadas = 0;  // Reinicia el contador de jugadas
+                    panelTablero.actualizarTablero(tableroActual);
+                    contadorJugadas = 0; 
                 }
             }
         });
